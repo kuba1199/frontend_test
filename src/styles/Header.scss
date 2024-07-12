@@ -1,0 +1,22 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.8rem 1.3rem;
+  background-color: #0b0c10;
+  color: #fff;
+
+  &__logo img {
+    height: 100px;
+    background-color: #0b0c10;
+  }
+
+  &__title {
+    font-size: 1.5rem;
+    line-height: 40px;
+    padding-right: 6rem;
+    text-align: right;
+  }
+}

@@ -1,0 +1,77 @@
+.main-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2.5rem;
+  flex-grow: 1; /* Allows the main content to grow and take available space */
+  overflow: auto; /* Ensure that the content is scrollable if it overflows */
+  max-height: calc(100vh - 4rem); /* Adjust based on the footer height */
+
+  button {
+    padding: 0.8rem 1.2rem;
+    font-size: 1rem; /* Use rem for font size */
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: #a1a7b5;
+    font-weight: 500;
+    background-color: #2a2d36;
+    border-color: #ffffff;
+    border-width: 0.3px;
+    margin-right: 2rem;
+    margin-bottom: 1.2rem;
+
+    &:hover {
+      background-color: #f7931e;
+      color: #ffffff;
+    }
+  }
+}
+
+.main-content__wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 50%;
+}
+
+@media (max-width: 960px) {
+  .main-content {
+    flex-direction: column;
+    align-items: center;
+    padding: 0.7rem;
+    width: 100%;
+    min-height: calc(100vh - 4rem); /* Adjust based on the footer height */
+    box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+    overflow: auto; /* Ensure that the content is scrollable if it overflows */
+  }
+
+  .main-content__wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    gap: 8rem;
+  }
+
+  .main-content__buttons {
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+  }
+
+  .footer__options {
+    position: static;
+    width: 100%;
+    box-shadow: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer__options button {
+    width: 100%;
+    margin-top: 0.2rem;
+  }
+}

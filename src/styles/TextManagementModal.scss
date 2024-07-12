@@ -1,0 +1,59 @@
+// src/styles/TextManagementModal.scss
+.text-management-modal {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 500px;
+  margin: auto;
+  position: relative;
+  top: 10%;
+  transform: translateY(-50%);
+  outline: none;
+}
+
+.text-management-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-management-modal h2 {
+  margin-top: 0;
+}
+
+.text-management-modal input {
+  margin-bottom: 10px;
+  padding: 8px;
+  width: calc(100% - 16px);
+}
+
+.text-management-modal button {
+  margin-right: 10px;
+  padding: 8px 12px;
+}
+
+.text-management-modal ul {
+  list-style: none;
+  padding: 0;
+}
+
+.text-management-modal li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.text-management-modal .close-button {
+  background: #e74c3c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}

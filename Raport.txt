@@ -1,0 +1,16 @@
+Dzień dobry, przedstawiam moje wykonanie zadania rekrutacyjnego.
+
+Z rzeczy które udało się zaimplmentować poza podstawowymi wymaganiami to:
+
+- projekt wykonany we frameworku React, jednak jest osobą która szybko się uczy i przesiadka na angulara nie byłaby problemem
+- zastosowanie BEM
+- Napis w footerze się obraca
+- starałem się poprawnie wykorzystać jednostki inne niż px
+- Button w footerze ("pokaż") wysuwający ramkę bez użycia JSa.
+- udało się wykorzystać w poprawny sposób LocalStorage oraz porponowane funkcjonalnośći dodawanie / edycji / usuwania tekstu (wyświetlane w elemencie Modal)
+
+Rzeczy których nie udało się zaimplementować:
+
+- nie wrzuciłem pracy na darmową platformę z powodu pilnego wyjazdu
+- mobile first (w tym konkretnym projekcie dużo łatwiej projektowało mi się stronę na wersji dekstopewj, później dostowsowując ją do wersji mobilnej)
+- Doklejając treść sprawić by w ostatnim bloku treści były posortowane alfabetycznie.

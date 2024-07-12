@@ -1,0 +1,16 @@
+@import "styles/Header";
+@import "styles/Footer";
+@import "styles/MainContent";
+@import "styles/OptionBlock";
+@import "styles/TextBlock";
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  background-color: #2a2d36;
+  color: #fff;
+}
+
+.App h1 {
+  margin-top: 50px;
+}
