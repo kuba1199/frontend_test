@@ -3,7 +3,7 @@ import "./App.scss";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import MainContent from "./components/MainContent";
-import initialJsonData from "./data.json"; // Zastąp rzeczywistą ścieżką do twoich danych JSON
+import initialJsonData from "./data.json"; 
 
 const loadDataFromLocalStorage = () => {
   const data = localStorage.getItem("jsonData");
