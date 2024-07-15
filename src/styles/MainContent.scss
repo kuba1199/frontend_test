@@ -4,13 +4,13 @@
   align-items: center;
   justify-content: space-between;
   padding: 0 2.5rem;
-  flex-grow: 1; /* Allows the main content to grow and take available space */
-  overflow: auto; /* Ensure that the content is scrollable if it overflows */
-  max-height: calc(100vh - 4rem); /* Adjust based on the footer height */
+  flex-grow: 1; 
+  overflow: auto; 
+  max-height: calc(100vh - 4rem); 
 
   button {
     padding: 0.8rem 1.2rem;
-    font-size: 1rem; /* Use rem for font size */
+    font-size: 1rem; 
     cursor: pointer;
     transition: all 0.3s ease;
     color: #a1a7b5;
@@ -41,9 +41,9 @@
     align-items: center;
     padding: 0.7rem;
     width: 100%;
-    min-height: calc(100vh - 4rem); /* Adjust based on the footer height */
-    box-sizing: border-box; /* Includes padding and border in the element's total width and height */
-    overflow: auto; /* Ensure that the content is scrollable if it overflows */
+    min-height: calc(100vh - 4rem); 
+    box-sizing: border-box; 
+    overflow: auto; 
   }
 
   .main-content__wrap {
